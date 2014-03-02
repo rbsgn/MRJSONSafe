@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PROJECT=MRJSONSafe.xcodeproj
+xctool -project "${PROJECT}" -scheme "iOS Tests" -sdk iphonesimulator test
+xctool -project "${PROJECT}" -scheme "OS X Tests" -sdk macosx test
