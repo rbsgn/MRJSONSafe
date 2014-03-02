@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nskboy/MRJSONSafe.png?branch=master)](https://travis-ci.org/nskboy/MRJSONSafe)
+
 JSON Safe
 -----------
 Set of categories on Foundation objects that simplify your life while working on parsed JSON objects.
