@@ -1,5 +1,4 @@
 #!/bin/bash
 
-PROJECT=MRJSONSafe.xcodeproj
-xctool -project "${PROJECT}" -scheme "iOS Tests" -sdk iphonesimulator test
-xctool -project "${PROJECT}" -scheme "OS X Tests" -sdk macosx test
+xcodebuild -scheme 'OS X Tests' -destination 'platform=OS X,arch=x86_64' test
+xcodebuild -scheme 'iOS Tests'  -destination 'platform=iPhone Retina (3.5-inch)' test
