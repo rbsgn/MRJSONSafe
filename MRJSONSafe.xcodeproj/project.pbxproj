@@ -8,22 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		C9105F4118C20753004A6CA4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9105F4018C20753004A6CA4 /* XCTest.framework */; };
-		C9105F4918C20753004A6CA4 /* OS_X_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9105F4818C20753004A6CA4 /* OS_X_Tests.m */; };
 		C9105F5318C2077C004A6CA4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9105F4018C20753004A6CA4 /* XCTest.framework */; };
 		C9105F5518C2077C004A6CA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9105F5418C2077C004A6CA4 /* Foundation.framework */; };
-		C9105F5F18C2077C004A6CA4 /* iOS_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9105F5E18C2077C004A6CA4 /* iOS_Tests.m */; };
+		C9105F7318C31288004A6CA4 /* MRJSONSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = C9105F7218C31288004A6CA4 /* MRJSONSafe.m */; };
+		C9105F7418C31288004A6CA4 /* MRJSONSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = C9105F7218C31288004A6CA4 /* MRJSONSafe.m */; };
+		C92E81B918C35A8C00CA8F2E /* NSDictionaryConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92E81B818C35A8C00CA8F2E /* NSDictionaryConversionTests.m */; };
+		C92E81BA18C35A8C00CA8F2E /* NSDictionaryConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92E81B818C35A8C00CA8F2E /* NSDictionaryConversionTests.m */; };
+		C92E81BC18C35E3500CA8F2E /* NSNumberConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92E81BB18C35E3500CA8F2E /* NSNumberConversionTests.m */; };
+		C92E81BD18C35E3500CA8F2E /* NSNumberConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92E81BB18C35E3500CA8F2E /* NSNumberConversionTests.m */; };
+		C92E81BF18C3603900CA8F2E /* NSStringConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92E81BE18C3603900CA8F2E /* NSStringConversionTests.m */; };
+		C92E81C018C3603900CA8F2E /* NSStringConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92E81BE18C3603900CA8F2E /* NSStringConversionTests.m */; };
+		C92E81C218C361CD00CA8F2E /* NSNullConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92E81C118C361CD00CA8F2E /* NSNullConversionTests.m */; };
+		C92E81C318C361CD00CA8F2E /* NSNullConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92E81C118C361CD00CA8F2E /* NSNullConversionTests.m */; };
+		C92E81C518C362BE00CA8F2E /* NSArrayConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92E81C418C362BE00CA8F2E /* NSArrayConversionTests.m */; };
+		C92E81C618C362BE00CA8F2E /* NSArrayConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92E81C418C362BE00CA8F2E /* NSArrayConversionTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C9105F3D18C20753004A6CA4 /* OS X Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OS X Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9105F4018C20753004A6CA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C9105F4418C20753004A6CA4 /* Common Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Common Tests-Info.plist"; path = "aux/Common Tests-Info.plist"; sourceTree = "<group>"; };
-		C9105F4818C20753004A6CA4 /* OS_X_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OS_X_Tests.m; sourceTree = "<group>"; };
 		C9105F4A18C20753004A6CA4 /* OS X Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "OS X Tests-Prefix.pch"; path = "aux/OS X Tests-Prefix.pch"; sourceTree = "<group>"; };
 		C9105F5218C2077C004A6CA4 /* iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9105F5418C2077C004A6CA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C9105F5E18C2077C004A6CA4 /* iOS_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Tests.m; sourceTree = "<group>"; };
 		C9105F6018C2077C004A6CA4 /* iOS Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "iOS Tests-Prefix.pch"; path = "aux/iOS Tests-Prefix.pch"; sourceTree = "<group>"; };
+		C9105F7118C31288004A6CA4 /* MRJSONSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRJSONSafe.h; sourceTree = "<group>"; };
+		C9105F7218C31288004A6CA4 /* MRJSONSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRJSONSafe.m; sourceTree = "<group>"; };
+		C92E81B818C35A8C00CA8F2E /* NSDictionaryConversionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryConversionTests.m; sourceTree = "<group>"; };
+		C92E81BB18C35E3500CA8F2E /* NSNumberConversionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumberConversionTests.m; sourceTree = "<group>"; };
+		C92E81BE18C3603900CA8F2E /* NSStringConversionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringConversionTests.m; sourceTree = "<group>"; };
+		C92E81C118C361CD00CA8F2E /* NSNullConversionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNullConversionTests.m; sourceTree = "<group>"; };
+		C92E81C418C362BE00CA8F2E /* NSArrayConversionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayConversionTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,8 @@
 		C9105F3518C2069D004A6CA4 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				C9105F7118C31288004A6CA4 /* MRJSONSafe.h */,
+				C9105F7218C31288004A6CA4 /* MRJSONSafe.m */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -68,8 +85,11 @@
 		C9105F3818C206AB004A6CA4 /* tests */ = {
 			isa = PBXGroup;
 			children = (
-				C9105F4818C20753004A6CA4 /* OS_X_Tests.m */,
-				C9105F5E18C2077C004A6CA4 /* iOS_Tests.m */,
+				C92E81C118C361CD00CA8F2E /* NSNullConversionTests.m */,
+				C92E81BE18C3603900CA8F2E /* NSStringConversionTests.m */,
+				C92E81BB18C35E3500CA8F2E /* NSNumberConversionTests.m */,
+				C92E81B818C35A8C00CA8F2E /* NSDictionaryConversionTests.m */,
+				C92E81C418C362BE00CA8F2E /* NSArrayConversionTests.m */,
 			);
 			path = tests;
 			sourceTree = "<group>";
@@ -187,7 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9105F4918C20753004A6CA4 /* OS_X_Tests.m in Sources */,
+				C92E81B918C35A8C00CA8F2E /* NSDictionaryConversionTests.m in Sources */,
+				C9105F7318C31288004A6CA4 /* MRJSONSafe.m in Sources */,
+				C92E81C518C362BE00CA8F2E /* NSArrayConversionTests.m in Sources */,
+				C92E81BC18C35E3500CA8F2E /* NSNumberConversionTests.m in Sources */,
+				C92E81BF18C3603900CA8F2E /* NSStringConversionTests.m in Sources */,
+				C92E81C218C361CD00CA8F2E /* NSNullConversionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +220,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9105F5F18C2077C004A6CA4 /* iOS_Tests.m in Sources */,
+				C92E81C618C362BE00CA8F2E /* NSArrayConversionTests.m in Sources */,
+				C9105F7418C31288004A6CA4 /* MRJSONSafe.m in Sources */,
+				C92E81C318C361CD00CA8F2E /* NSNullConversionTests.m in Sources */,
+				C92E81BA18C35A8C00CA8F2E /* NSDictionaryConversionTests.m in Sources */,
+				C92E81C018C3603900CA8F2E /* NSStringConversionTests.m in Sources */,
+				C92E81BD18C35E3500CA8F2E /* NSNumberConversionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +439,7 @@
 				C9105F4D18C20753004A6CA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9105F6118C2077C004A6CA4 /* Build configuration list for PBXNativeTarget "iOS Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +448,7 @@
 				C9105F6318C2077C004A6CA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
