@@ -1,4 +1,4 @@
 #!/bin/bash
 
 xcodebuild -scheme 'OS X Tests' -destination 'platform=OS X,arch=x86_64' test
-xcodebuild -scheme 'iOS Tests'  -destination 'platform=iPhone Retina (3.5-inch)' test
+xcodebuild -scheme 'iOS Tests'  -destination 'platform=iOS Simulator,name=iPhone Retina (3.5-inch)' test
