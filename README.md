@@ -29,13 +29,40 @@ That's why JSON Safe was created. You can work with your JSON safely:
 NSDictionary *JSONDict = [JSONObject mr_toDictionary];
 ```
 
-Following conversions are supported:
+Example Usage
+---------------
+
+Following conversions of an arbitrary JSON object are supported:
 
 * to NSString
 * to NSNumber
 * to NSArray
 * to NSArray of items of specified class
 * to NSDictionary
+
+`NSNull` always gets converted to `nil`, no matter what are you trying to get: `NSString`, `NSNumber`, `NSArray` or `NSDictionary`. 
+
+Attempt to convert `NSNumber` to `NSNumber` yield same object. To `NSString` — invoke `-[NSNumber stringValue]`. To `NSArray` — produce `NSArray` containing the receiver. To `NSDictionary` — `nil`.
+
+Similar things happen with `NSString`:
+
+* `NSString` → `NSString` gives the same object
+* → `NSNumber` uses `NSNumberFormatter` with decimal separator set to `.`
+* → `NSArray` yields to `@[ self ]`
+* → `NSDictionary` returns `nil`
+
+A bit tricky stuff happens with `NSArray` and `NSDictionary`. Here are `NSArray` conversion rules:
+
+* Conversion from `NSArray` to `NSString` gives you `concatenated\n\content\nof\nthe\narray`
+* To `NSNumber` outcomes in `nil`
+* → `NSArray` yields `self`
+* → `NSDictionary` — `nil`
+
+And finally `NSDictionary`:
+
+* Attempt to convert it to non collection object will result in `nil`
+* → `NSArray` results `@[ self ]`
+* → `NSDictionary` — `self`
 
 The project is covered with set of tests that act like documentation. Go check it in `tests/` directory.
 
